@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "test_download_google_drive_file",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "node_modules/.bin/babel lib -d dist -q",
+    "prebuild": "node_modules/.bin/rimraf dist",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-node6": "11.0.0",
+    "rimraf": "2.5.4"
+  },
+  "babel": {
+    "presets": [
+      "node6"
+    ]
+  }
+}
