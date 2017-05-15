@@ -13,11 +13,13 @@
   "devDependencies": {
     "babel-cli": "6.18.0",
     "babel-preset-node6": "11.0.0",
+    "babel-preset-stage-0": "6.22.0",
     "rimraf": "2.5.4"
   },
   "babel": {
     "presets": [
-      "node6"
+      "node6",
+      "stage-0"
     ]
   }
 }
