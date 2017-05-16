@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "test_download_google_drive_file",
+  "name": "navigate_and_download_google_drive_json_file",
   "version": "0.0.0",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
